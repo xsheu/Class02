@@ -13,9 +13,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let a : Int = 0
-        let b : Int = 1
-        print this.add(a,b)
+        let a = add(a: 4, b: 3)
+        if a > 0 {
+            print("a 值為 : \( a )")
+        }
+        else {
+            print("<=0")
+        }
+        
         
     }
 
